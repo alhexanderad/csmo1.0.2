@@ -7,7 +7,7 @@ $(function () {
         populateColorPlates();
         setTimeout(function () {
             $(".page_loader").fadeOut("fast");
-        }, 100);
+        }, 50);
 
         if ($('body .filter-portfolio').length > 0) {
             $(function () {

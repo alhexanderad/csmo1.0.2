@@ -762,7 +762,16 @@ input[type=checkbox]:checked + label:before {
 .main-header .navbar-expand-lg .navbar-nav .nav-link {
     color: #636060;
 }
+/*Language-start*/
+.lang{
 
+  border: 1px red solid;
+  border-radius:50% ;
+padding: 5px;
+  color: #fff;
+  opacity: 0.9;
+}
+/*Language-end*/
 .main-header .navbar-expand-lg .navbar-nav .nav-link {
     padding: 32.5px 15px;
     line-height: 20px;
@@ -8292,7 +8301,7 @@ table {
     }
 
     .banner .w-100 {
-        width: auto!important;
+        /*width: auto!important;*/
     }
 
     .testimonial-3 .testimonial-info{
@@ -8953,7 +8962,9 @@ table {
         background-repeat: inherit;
     }
 }
+/*Confg. responsive - start*/
 @media (max-width: 1023px) and (min-width: 900px) {
+
   .footer-csmo .container-footer-main {
     flex-direction: column;
   }
@@ -8986,6 +8997,10 @@ table {
 }
 
 @media (max-width: 899px) {
+  .container{
+    max-width: 890px;
+  }
+
   .footer-csmo {
     padding: 10px 0;
   }
@@ -9058,6 +9073,7 @@ table {
     padding: 20px 0;
   }
 }
+/*Confg. responsive - start*/
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width: 768px) {
