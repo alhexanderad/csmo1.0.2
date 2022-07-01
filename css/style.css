@@ -5084,6 +5084,42 @@ footer {
     font-size: 15px;
 }
 
+.contact__2-container{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+
+.contact__2-inner{
+    padding: 24px 14px;
+    background-color: #F8F9FA;
+    border-radius:3px;
+}
+
+.contact__2-icon > i,
+.contact__2-content > a,
+.contact__2-content>p
+{
+    color: #212529;
+}
+
+.contact__2-icon{
+    margin-bottom: 16px;
+}
+
+.contact__2-icon>i{
+    font-size:32px;
+}
+
+.contact__2-content>a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .contact-2 .form-control {
     width: 100%;
     padding: 10px 20px;
@@ -5133,6 +5169,40 @@ footer {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 }
 
+.contact__2-opening h6{ 
+    position: relative;
+    color:#212529;
+    text-transform: uppercase;
+    font-weight:700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contact__2-opening h6:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 30px;
+    height: 2px;
+    background: #f0151f;
+}
+
+
+.contact__2-list li strong,
+.contact__2-list li span
+{
+    color:#212529;
+}
+
+.contact__2-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 7px;
+}
+
 .contact-2 .contact-info-2 .ci-box i {
     width: 45px;
     line-height: 50px;
@@ -5164,6 +5234,12 @@ footer {
 
 .contact-2 .ci-box .detail {
     margin-left: 50px;
+}
+
+
+/** Map **/
+.map__2-inner{
+    padding: 0;
 }
 
 /** Social media box **/
