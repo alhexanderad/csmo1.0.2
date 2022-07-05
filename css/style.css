@@ -685,14 +685,15 @@ input[type=checkbox]:checked + label:before {
   align-items: center;
 }
 
-.btn-idioma{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  border-radius: 3px;
+.second__list-inline a {
   color: #fff;
+  opacity: 0.9;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 14px;
+}
+
+.btn-idioma{
 }
 
 .top-header ul li {
