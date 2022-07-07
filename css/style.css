@@ -6824,7 +6824,9 @@ footer {
 
 /** Heading car start **/
 .heading-car{
-    margin-bottom: 20px;
+  background-color: #fff;
+  margin-bottom: 0px;
+  padding: 10px 15px;
 }
 
 .heading-car h3{
@@ -6832,6 +6834,7 @@ footer {
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: #212121;
 }
 
 .heading-car h6{
@@ -6961,7 +6964,7 @@ footer {
 
 /** Carousel indicators section start **/
 .carousel-indicators-section{
-    background: red;
+    /* background: red; */
     display: inline-block;
     width: 100%;
 }
